@@ -1,0 +1,72 @@
+.joinUsCard
+{
+    text-decoration: none;
+    display: block;
+    flex-direction: column;
+    transition-duration: var(--card-animLen);
+    border-radius: min(40px,2.0833vw);
+    border:0.1389vw solid #D5D7DA;
+    width: 43%;
+
+    justify-content: space-between;
+    padding:min(60px,max(20px,2vw));
+}
+.joinUsCard:hover .joinLinkText
+{
+    color:white;
+}
+.joinUsCard:hover svg circle
+{
+    fill: #FFFFFF;
+
+}
+.joinUsCard:hover svg path
+{
+    fill:var(--base-color)
+}
+:root{
+    --base-color:#E53440;
+    --card-animLen:800ms;
+    --max-card-font-size:50px;
+    --max-arrow-size:100px;
+}
+.joinUsCard:hover{
+    background-color: var(--base-color);
+    border-color: var(--base-color);
+    cursor:pointer;
+}
+.joinUsCard svg
+{
+    height:clamp(48px,var(--max-arrow-size),3.82vw);
+    width:clamp(48px,var(--max-arrow-size),3.82vw);
+    padding-left:0px;
+}
+.joinUsCard svg circle
+{
+    transition-duration: var(--card-animLen);
+}
+.arrowOfSvg
+{
+    transition-duration: var(--card-animLen);
+}
+.joinUsCard:hover .joinCardDescript{
+    color:white
+}
+.joinCardDescript
+{
+    color: #1D1D1D;
+    transition-duration: var(--card-animLen);
+    font-size: min(max(24px,2vw),var(--max-card-font-size));
+    
+    font-weight: 700;
+    padding-top:min(2vw,50px);
+    padding-bottom: min(2vw,50px);
+    
+}
+.joinLinkText
+{
+    font-weight: 600;
+    color:var(--base-color);
+    font-size:min(max(18px,1.667vw),var(--max-card-font-size));
+
+}

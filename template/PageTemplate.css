@@ -1,0 +1,19 @@
+.page
+{
+    display: flex;
+    flex-direction: column;
+}
+.crumbs{
+    padding-top: max(40.5px,5.07vw);
+    font-size: max(1.67vw,17px);
+}
+.title
+{
+    
+    padding-top: max(28px,3.54vw);
+    font-size:max(38px,5.09vw);
+    font-weight: 700;
+}
+.content{
+    margin:48px 0px 70px 0px
+}

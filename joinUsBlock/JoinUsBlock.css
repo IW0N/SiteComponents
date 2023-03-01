@@ -1,0 +1,31 @@
+.joinUsBlock
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #F9F9F9;
+    padding-top:4.86vw;
+    padding-bottom: 5.56vw;
+}
+.joinUsContent
+{
+    align-self: center;
+}
+.cards{
+    margin-top: 3.33vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vw;
+    
+}
+.label
+{
+    font-weight: 700;
+    font-size:min(50px,max(26px, 3.33vw));
+}
+.redLabel{
+    color:var(--base-color)
+}
+.cards > div
+{
+    flex-grow: 2;
+}

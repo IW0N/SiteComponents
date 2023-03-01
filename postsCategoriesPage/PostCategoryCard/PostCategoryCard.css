@@ -1,0 +1,65 @@
+:root{
+    --vertical-card-padding:max(14px,1.67vw);
+    --horizontal-card-padding:max(11px,1.67vw);
+    --card-width:14vw;
+    
+}
+.postQuantity
+{
+    border-radius: 50%;
+    background-color: var(--base-color);
+    color:white;
+    text-align: center;
+    width: 55px;
+    font-size: 30px;
+    line-height: 37.5px;
+}
+.postQuantity
+{
+    padding: 8.25px 0px;
+}
+.categoryCard
+{
+    background-color: white;
+    border: 2px solid #D5D7DA;
+    border-radius: max(15px,2.0833vw);
+    display:flex;
+    flex-wrap: wrap;
+    min-width: 120px;
+    width:var(--card-width);
+    flex-direction: column;
+    transition-duration: var(--card-animLen);
+    padding: 
+            var(--vertical-card-padding)
+            var(--horizontal-card-padding);
+    cursor: pointer;
+    flex-grow: 2;
+    
+}
+
+.categoryCard:hover span
+{
+    color: white;
+}
+.categoryCard span
+{
+    margin-top: max(24px,3.33vw);
+    font-size: max(20px,2.0833vw);
+    font-weight: 700;
+    transition-duration: var(--card-animLen);
+}
+.postQuantity
+{
+    transition-duration: var(--card-animLen);
+}
+.categoryCard:hover .postQuantity
+{
+    background-color: white;
+    color: var(--base-color);
+}
+.categoryCard:hover
+{
+    background-color: var(--base-color);
+    border-color:var(--base-color)
+
+}

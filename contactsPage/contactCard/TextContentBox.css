@@ -1,0 +1,43 @@
+.name1
+{
+   
+    font-size:max(30px,2.083%);
+    font-weight: 700;
+    white-space: nowrap;
+}
+.descrBlock
+{
+    font-size: 18px;
+    color:#434343;
+    flex-wrap: wrap;
+    
+}
+.links
+{
+    display: flex;
+    justify-content: left;
+    
+}
+.link:first-child
+{
+    padding-right: 28px;
+}
+.link
+{
+    color:var(--base-color);
+    font-family:Arial;
+    font-family:Manrope;
+    text-decoration:none;
+    font-weight:700;
+    font-size: 18px;
+    
+}
+.textContentBox
+{
+
+    width:100%;
+    display:flex;
+ 
+    flex-direction:column;
+    justify-content: space-between;
+}

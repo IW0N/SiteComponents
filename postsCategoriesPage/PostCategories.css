@@ -1,0 +1,15 @@
+:root
+{
+    --grid-gap:17px;
+}
+.categoryGrid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: var(--grid-gap);
+}
+.categoryCard:last-of-type
+{
+    flex-grow: 0;
+    /*ширина блока подгонется под остальные блоки js-скриптом*/
+}
